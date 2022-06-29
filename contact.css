@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background: url(cpage.jpg) no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 120vh;
+    }
+    
+nav {
+    background: rgb(223, 15, 15);
+    height: 50px;
+    width: 100%;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+.contactme {
+    width: 400px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+    background: black;
+    border-radius: 10px;
+    height: 90vh;
+}
+.contactme h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    cursor: pointer;
+    color: rgb(223, 15, 15);
+}
+
+.contactme p {
+    font-size: 20px;
+    margin: 20px 0px;
+    cursor: pointer;
+    color: rgb(223, 15, 15);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 4px;
+}
+.contactme input {
+    font-size: 16px;
+    width:60% ;
+    padding: 15px 10px;
+    border: 3px solid rgb(223, 15, 15);
+    outline: none;
+    border-radius: 24px;
+    cursor: pointer;
+    transform: translate(35%, 35% );
+}
+.contactme button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 100px 0;
+    padding: 10px 15px;
+    width: 90px;
+    border-radius: 24px;
+    border: 3px solid rgb(223, 15, 15);
+    color: rgb(223, 15, 15);
+    cursor: pointer;
+}
+.contactme textarea {
+    color: black;
+    height: 100px;
+    width: 60%;
+    font-size: 18px;
+    border-radius: 24px;
+    border: 3px solid rgb(223, 15, 15);
+    transform: translate(35%, 35% );
+    
+}
+.social {
+    padding: 250px 180px;
+    font-size: 30px;
+    
+}
+.social h3{
+    color: white;
+    font-size: 20px;
+}
+.socials {
+    color: white;
+    padding: 0 5px;
+    
+}
+.socialsheader h3 {
+    color: white;
+    padding: 100px 150px;
+}
+
+.contactme button:hover {
+    background-color: rgb(215, 189, 218);
+}
+.contactme button:active {
+background-color:pink;
+}
+.contactme input:hover {
+    background-color: rgb(223, 92, 5);
+}
+ nav ul li a:hover {
+background-color: rgb(231, 137, 241)
+}
+.socials :hover {
+    background-color: rgb(223, 15, 15);
+}
+#footer {
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 70px;
+    text-align: center;
+    margin-top: 200px;
+    clear: both;
+    font-size: 12px;
+}
